@@ -14,7 +14,12 @@ module.exports = {
       'light-green': '#e1f0ee',
       'dark-green': '#009580',
       'yellow': '#ffab2a',
-      'dark-gray': '#84818a'
+      'dark-gray': '#84818a',
+      'light-gray': '#dcdbdd',
+      'cool-blue':'#23adde',
+      'cooler-blue': '#3487eb',
+      'purple': '#7b5cdc',
+      'cool-orange': '#f97855'
 
 
     },

@@ -1,18 +1,17 @@
 import React from 'react';
-import './App.css';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CourseApp from './Course/CourseApp';
+import NoCourseApp from './noCourse/NoCourseApp';
 
 function App() {
   return (
-    <div className="flex">
-      <Sidebar />
-      <div className="flex-1 flex flex-col font-serif bg-gray">
-        <Header />
-        <MainContent />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/course" element={<CourseApp />} />
+        <Route path="/nocourse" element={<NoCourseApp />} />
+        <Route path="/" element={<div>Select a version: /course or /nocourse</div>} />
+      </Routes>
+    </Router>
   );
 }
 
