@@ -20,8 +20,6 @@ module.exports = {
       'cooler-blue': '#3487eb',
       'purple': '#7b5cdc',
       'cool-orange': '#f97855'
-
-
     },
     extend: {
       fontFamily: {
