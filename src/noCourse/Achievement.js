@@ -75,7 +75,9 @@ const Achievement = () => {
         </div>
       </div>
       <div className="text-center mt-4">
-        <a href="#" className="text-lesser-black">Discover more assets ›</a>
+        <button className="text-lesser-black" style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}>
+          Discover more assets ›
+        </button>
       </div>
     </div>
   );
